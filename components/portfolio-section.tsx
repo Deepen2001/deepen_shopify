@@ -104,7 +104,7 @@ export default function PortfolioSection() {
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-3xl md:text-5xl font-bold text-white mb-12 text-center">Portfolio</h2>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-8">
           {portfolioItems.map((item, idx) => (
             <PortfolioCard key={`${item.title}-${idx}`} item={item} />
           ))}

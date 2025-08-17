@@ -3,7 +3,7 @@ import React from "react";
 export default function ExpSection() {
   return (
     <section
-      className="w-full flex justify-center items-center py-20"
+      className="w-full flex justify-center items-center py-20 px-3 sm:px-4"
       style={{
         background: 'linear-gradient(120deg, #23272f 60%, #18181b 100%)',
       }}

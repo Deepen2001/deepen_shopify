@@ -5,7 +5,7 @@ export default function HeroDev() {
   return (
     <section className="relative flex flex-col justify-center h-[100vh] w-full bg-gradient-to-b from-[#18181b] to-[#23272f] text-white px-4 py-16">
       <div className="absolute inset-0 pointer-events-none select-none opacity-30 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-[#3b82f6]/30 via-transparent to-transparent" />
-      <div className="z-10 max-w-7xl mx-auto w-full flex flex-col md:flex-row items-center justify-between gap-12">
+      <div className="z-10 max-w-7xl mx-auto w-full flex flex-col-reverse md:flex-row items-center justify-between gap-12">
         {/* Left: Text Content */}
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight leading-tight bg-gradient-to-r from-[#5e8f3c] to-[#96c045] bg-clip-text text-transparent">
@@ -36,7 +36,7 @@ export default function HeroDev() {
             <img
               src="https://sergio-react.vercel.app/static/img/home-banner.png"
               alt="Developer at work"
-              className="w-100 h-100 object-cover rounded-full shadow-2xl border-4 border-[#23272f] group-hover:scale-105 transition-transform duration-300 bg-[#23272f]"
+              className="w-60 h-60 sm:w-100 sm:h-100 object-cover rounded-full shadow-2xl border-4 border-[#23272f] group-hover:scale-105 transition-transform duration-300 bg-[#23272f]"
               style={{ boxShadow: '0 8px 32px 0 rgba(94,143,60,0.25)' }}
             />
             <div className="absolute -inset-2 rounded-full border-2 border-[#5e8f3c] opacity-40 group-hover:opacity-80 transition-opacity duration-300 pointer-events-none" />
