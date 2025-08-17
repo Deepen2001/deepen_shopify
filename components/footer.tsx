@@ -1,15 +1,15 @@
 "use client"
 
-import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react"
-import Link from "next/link"
+import { Facebook, Instagram, Linkedin } from "lucide-react"
+// import Link from "next/link"
 
 export function Footer() {
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId)
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" })
-    }
-  }
+  // const scrollToSection = (sectionId: string) => {
+  //   const element = document.getElementById(sectionId)
+  //   if (element) {
+  //     element.scrollIntoView({ behavior: "smooth" })
+  //   }
+  // }
 
   return (
     <footer
