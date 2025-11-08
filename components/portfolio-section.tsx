@@ -9,17 +9,27 @@ type PortfolioItem = {
 
 // Example portfolio items (replace with your own data and images)
 const portfolioItems: PortfolioItem[] = [
-  { title: "E-Commerce Fashion Store", image: "/images/trapin-home-desk.jpg", url: "https://yourfashionstore.com" },
-  { title: "Tech Gadgets Shop", image: "/images/trapin-collec-desk.jpg", url: "https://yourtechgadgets.com" },
-  { title: "Home Decor Boutique", image: "/images/trapin-pro-desk.jpg", url: "https://yourhomedecor.com" },
-  { title: "Home Decor Boutique", image: "/images/charmacy-home.jpg", url: "https://yourhomedecor.com" },
-  { title: "Home Decor Boutique", image: "/images/gillori-home.jpg", url: "https://yourhomedecor.com" },
-  { title: "Home Decor Boutique", image: "/images/House-of-Gulab-home.jpg", url: "https://yourhomedecor.com" },
-  { title: "Home Decor Boutique", image: "/images/Prisachi-home.jpg", url: "https://yourhomedecor.com" },
-  { title: "Home Decor Boutique", image: "/images/Sazvit-home.jpg", url: "https://yourhomedecor.com" },
-  { title: "Home Decor Boutique", image: "/images/Your-Sneaker-home.jpg", url: "https://yourhomedecor.com" },
-  { title: "Home Decor Boutique", image: "/images/Zeraki-home.jpg", url: "https://yourhomedecor.com" },
-  { title: "Home Decor Boutique", image: "/images/Nutressa-home.jpg", url: "https://yourhomedecor.com" },
+  { title: "E-Commerce Fashion Store", image: "/images/trapin-home-desk.jpg", url: "https://trapin.co/" },
+  { title: "Tech Gadgets Shop", image: "/images/trapin-collec-desk.jpg", url: "https://trapin.co/" },
+  { title: "Home Decor Boutique", image: "/images/trapin-pro-desk.jpg", url: "https://trapin.co/" },
+  { title: "Home Decor Boutique", image: "/images/charmacy-home.jpg", url: "https://charmacyworld.com/" },
+  { title: "Home Decor Boutique", image: "/images/gillori-home.jpg", url: "https://gillori.com/" },
+  { title: "Home Decor Boutique", image: "/images/House-of-Gulab-home.jpg", url: "https://houseofgulab.com/" },
+  { title: "Home Decor Boutique", image: "/images/Masakali-home.jpg", url: "https://shopmasakali.co/" },
+  { title: "Home Decor Boutique", image: "/images/Sudathi-home.jpg", url: "https://sudathi.com/" },
+  { title: "Home Decor Boutique", image: "/images/Prisachi-home.jpg", url: "https://www.prisachi.com/" },
+  { title: "Home Decor Boutique", image: "/images/Anahat-home.jpg", url: "https://anahat.in/" },
+  { title: "Home Decor Boutique", image: "/images/Zeraki-home.jpg", url: "https://zerakijewels.com/" },
+  { title: "Home Decor Boutique", image: "/images/Sazvit-home.jpg", url: "https://sazvit.in/" },
+  { title: "Home Decor Boutique", image: "/images/Your-Sneaker-home.jpg", url: "https://yoursneakerstore.in/" },
+  { title: "Home Decor Boutique", image: "/images/Nutressa-home.jpg", url: "https://nutressa.com/" },
+  { title: "Home Decor Boutique", image: "/images/Desi-Sass-home.jpg", url: "https://desisass.com/" },
+  { title: "Home Decor Boutique", image: "/images/downalley-home.jpg", url: "https://downalley.com/" },
+  { title: "Home Decor Boutique", image: "/images/Pluch-home.jpg", url: "https://www.pluchdesigns.com/" },
+  { title: "Home Decor Boutique", image: "/images/Purposeclo-home.jpg", url: "https://purposeclo.in/" },
+  { title: "Home Decor Boutique", image: "/images/TBFO-home.jpg", url: "https://www.tbfo.in/" },
+  { title: "Home Decor Boutique", image: "/images/LosKoros-home.jpg", url: "https://loskoros.com/" },
+  { title: "Home Decor Boutique", image: "/images/ND-Jewellery-home.jpg", url: "https://ndjewellery.com/" },
 ];
 
 function PortfolioCard({ item }: { item: PortfolioItem }) {

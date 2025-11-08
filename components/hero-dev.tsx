@@ -34,7 +34,7 @@ export default function HeroDev() {
         <div className="w-full md:w-1/2 flex items-center justify-center mb-8 md:mb-0">
           <div className="relative group">
             <img
-              src="https://sergio-react.vercel.app/static/img/home-banner.png"
+              src="/images/pro-img.jpeg"
               alt="Developer at work"
               className="w-60 h-60 sm:w-100 sm:h-100 object-cover rounded-full shadow-2xl border-4 border-[#23272f] group-hover:scale-105 transition-transform duration-300 bg-[#23272f]"
               style={{ boxShadow: '0 8px 32px 0 rgba(94,143,60,0.25)' }}
@@ -45,7 +45,7 @@ export default function HeroDev() {
       </div>
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center opacity-70">
         <svg width="32" height="32" fill="none" viewBox="0 0 24 24" className="animate-bounce">
-          <path d="M12 5v14m0 0l-6-6m6 6l6-6" stroke="#3b82f6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M12 5v14m0 0l-6-6m6 6l6-6" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
         <span className="text-xs text-gray-400 mt-1">Scroll Down</span>
       </div>
